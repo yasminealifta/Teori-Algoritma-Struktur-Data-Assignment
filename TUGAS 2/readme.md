@@ -76,11 +76,10 @@ int main()
 Program di atas adalah algoritma Bubble Sort untuk mengurutkan array nama-nama warga Pak RT. Algoritma bubble sort bekerja dimulai dengan perulangan for pertama untuk memastikan semua elemen dibandingkan. Kemudian perulangan kedua digunakan untuk membandingkan elemen-elemen yang berdekatan dan dua elemen yang berdekatan akan dibandingkan. Jika elemen sebelah kiri lebih besar dari elemen sebelah kanan, maka kedua elemen ditukar sementara menggunakan temp. Setelah pengurutan selesai, array nama akan dicetak menggunakan perulangan for dan menggunakan fungsi cout untuk menampilkannya. Setelah program berjalan dengan baik dan benar, maka program akan mengembalikan nilai 0. Kompleksitas waktu algoritma Bubble Sort adalah O(n^2), di mana n adalah jumlah elemen dalam array. Hal ini berarti bahwa waktu yang dibutuhkan untuk mengurutkan array akan meningkat secara kuadrat dengan bertambahnya jumlah elemen. Pada program tersebut memiliki array dengan 10 elemen, maka akan membutuhkan waktu 100 langkah untuk mengurutkan array tersebut.
 
 #### Output :
-
-![Screenshot 2024-05-15 095613](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/e39c7282-1f42-4d1b-94b9-492d048a2f1d)
+![Screenshot 2024-05-15 095613](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/ea118748-61f9-48c7-a535-1f6ac5c046bc)
 
 #### Full code :
-![Screenshot 2024-05-15 095626](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/a0037c07-33e6-4086-9181-57cc77fca4b6)
+![Screenshot 2024-05-15 095626](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/b64c3dcc-e01f-4f3d-84c2-5794558cbbf8)
 
 ### 3. Tulislah sebuah fungsi untuk mensorting dan mengecek dua buah array of strings, sehingga menghasilkan “anagram” dan “tidak anagram” 
 
@@ -130,11 +129,11 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 100233](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/0f81d8d8-61e0-4eaf-bc8e-3f7834e7ea07)
-![Screenshot 2024-05-15 100241](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/a7e24a1d-b1b4-4263-95d2-fbd28ffc7cfa)
+![Screenshot 2024-05-15 100233](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/dee39b83-a442-4316-9728-473c3b1252ca)
+![Screenshot 2024-05-15 100241](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/e60e74a3-0b6e-4b16-8ce9-7b496ad6635a)
 
 #### Full code:
-![Screenshot 2024-05-15 095931](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/33909d65-435a-48f2-9d8e-ab77e7bc32da)
+![Screenshot 2024-05-15 095931](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/7e93946a-6b7a-4dbf-9453-8e755eac1646)
 
 ### 4. Tulislah sebuah fungsi program dengan asumsi sebagai berikut:
 ### Terdapat dua buah sorted array A dan B yang memiliki tipe data sama, dimana array A memiliki indeks yang cukup untuk menampung array B. Gabungkan array B kedalam array A, kemudian urutkan array tersebut! 
@@ -175,10 +174,10 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 100526](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/3aa937e7-693a-49d6-aac7-87e9aae71869)
+![Screenshot 2024-05-15 100526](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/b45cb177-2de5-4390-95c4-35d2f6b255af)
 
 #### Full code:
-![Screenshot 2024-05-15 100501](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/87e093e7-8970-4d21-b782-aefe546a41ec)
+![Screenshot 2024-05-15 100501](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/e3c20176-dd70-4d8e-abc7-f636b780002e)
 
 ## CPMK 2 – SubCPMK 3
 
@@ -265,10 +264,10 @@ int main() {
 Program diatas adalah program untuk mencari sebuah huruf pada sebuah kalimat yang diinputkan oleh user menggunakan binary search. Program akan meminta user untuk memassukkan kalimat menggunakan fungsi cout dan menyimpannya kedalam variabel kalimat menggunakan fungsi cin. Kemudian user akan diminta untuk memasukkan satu huruf yang akan dicari menggunakan fungsi cout dan menyimpannya di variabel huruf menggunakan fungsi cin. Untuk melakukan pencarian sebuah huruf dengan binary search harus melakukan pengurutan terlebih dahulu, disini kalimat yang telah dimasukkan tadi diurutkan secara ascending menggunakan fungsi sort. Untuk melakukan proses binary search perlu melakukan pendeklarasian variabel. Low dideklarasikan untuk menandai indeks awal pencarian, high dideklarasikan untuk menandai indeks akhir pencarian, dan mid dideklarasikan untuk menandai indeks tengah. Pada saat melakukan perulangan binary search, program akan bekerja dengan membagi menjadi dua bagian sama besar pada setiap iterasi, kemudian program akan membandingkan huruf yang ingin dicari dengan huruf pada tengah kalimat. jika huruf yang ingin dicari sama dengan huruf pada tengah kalimat, maka pencarian selesai. Jika huruf yang ingin dicari lebih besar dari huruf pada tengah kalimat, maka cari pada bagian kanan kalimat. Jika huruf yang ingin dicari lebih kecil dari huruf tengah pada kalimat, maka cari pada bagian kiri kalimat. Jika perulangan selesai dan huruf tidak ditemukan, maka program akan mencetak pesan bahwa huruf tidak ditemukan. Jika perulangan selesai dan huruf ditemukan, maka program akan mencetak pesan bahwa huruf tersebut ditemukan beserta letak index nya. Setelah program selesai berjalan dengan baik maka program tersebut akan mengembalikan nilai 0.
 
 #### Output :
-![Screenshot 2024-05-15 100909](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/3e369d9e-0bd4-4d03-b28b-5f6bd828ac95)
+![Screenshot 2024-05-15 100909](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/df79257b-c607-4515-9635-257a345ad285)
 
 #### Full code:
-![Screenshot 2024-05-15 100800](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/455e1e32-2304-43df-94c3-2c1f5942d9c1)
+![Screenshot 2024-05-15 100800](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/43155090-4eaa-4474-bc51-554192cb9b40)
 
 ### 3. Tulislah sebuah fungsi program dengan kondisi sebagai berikut:
 ### Terdapat sebuah sorted array of strings yang mana terdapat string kosong diantaranya, carilah lokasi/indeks dari kata yang dicari! 
@@ -318,10 +317,10 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 101218](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/0dee5a7f-1e2d-4025-99de-53dbafebd021)
+![Screenshot 2024-05-15 101218](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/d9ad530f-7a97-41a9-905a-ba3d15e0aa66)
 
 #### Full code:
-![Screenshot 2024-05-15 101204](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/2362c86c-442f-404a-a1f6-d53b675b8f1a)
+![Screenshot 2024-05-15 101204](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/1581646b-9c6f-45f5-a2dd-f30569551c93)
 
 ## CPMK 2 – SubCPMK 4
 
@@ -397,11 +396,11 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 102220](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/b090fbb9-437d-43f0-9a19-935b5ad0d2e4)
-![Screenshot 2024-05-15 102250](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/f1e27f45-7fbb-4ebf-9580-3152e3e51664)
+![Screenshot 2024-05-15 102220](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/bcac3d62-9916-489c-b98d-d8b060f2dff4)
+![Screenshot 2024-05-15 102250](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/729a1cce-130b-456e-8333-17303bcfb901)
 
 #### Full code:
-![Screenshot 2024-05-15 102131](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/183b3d53-1ca0-48fa-9690-6b7bff71b531)
+![Screenshot 2024-05-15 102131](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/9a18d6a3-4b54-485d-8f57-ed49c4bcf71c)
 
 ## CPMK 2 – SubCPMK 5
 
@@ -488,10 +487,10 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 102722](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/a8706bc2-43d9-46ae-ab3d-ad21c4492fb5)
+![Screenshot 2024-05-15 102722](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/957d520c-7368-4df7-9172-8c2de2305381)
 
 #### Full code:
-![Screenshot 2024-05-15 102702](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/3f3f3e93-d223-40f0-8f13-7fbf5a60e477)
+![Screenshot 2024-05-15 102702](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/3bf0c7b3-f666-4f23-82e8-93eed81f969d)
 
 ### 2. Buatlah sebuah algoritma dan fungsi program untuk menghapus node di tengah single linked list! 
 
@@ -621,11 +620,10 @@ int main() {
 ```
 
 #### Output :
-
-![Screenshot 2024-05-15 103304](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/9a637b2a-78de-4043-aea9-94eb3eaab81a)
+![Screenshot 2024-05-15 103304](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/411dede2-33b3-4f0f-8054-750bf83bdf13)
 
 #### Full code:
-![Screenshot 2024-05-15 103247](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/e97a5a97-299b-4f1b-8c64-18baa87cb6ff)
+![Screenshot 2024-05-15 103247](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/205fa122-b132-4401-a941-34669d4d5033)
 
 ### 3. Buatlah sebuah program untuk mengecek apakah linked list adalah sebuah palindrom! 
 
@@ -733,10 +731,10 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 103339](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/e1d54e1e-e8eb-422a-a10f-72261d739f65)
+![Screenshot 2024-05-15 103339](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/603f6bd5-b7c4-46f1-a391-410e918ca442)
 
 #### Full code:
-![Screenshot 2024-05-15 103317](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/3b2ff13b-5f56-410b-bbc5-2f1dd51e14b1)
+![Screenshot 2024-05-15 103317](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/133b1ea7-ae0d-4449-b081-e3d2780aae9c)
 
 ## CPMK 2 – SubCPMK 6
 
@@ -835,10 +833,10 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 103824](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/af53e140-d4c4-46b8-b44b-f61e07ea8f7d)
+![Screenshot 2024-05-15 103824](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/68e06b44-1b3c-479d-bcf4-281a8e575d92)
 
 #### Full code:
-![Screenshot 2024-05-15 103809](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/f17a0b93-c53a-44bd-86a0-695f2e1acc0d)
+![Screenshot 2024-05-15 103809](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/a4754a15-349e-4bd3-baea-63953f5cc00d)
 
 ### 2. Tulislah sebuah program untuk mensortir sebuah stack, sehingga item dengan nilai terkecil menjadi top pada stack tersebut! Diperbolehkan menggunakan tambahan temporary stack, namun tidak diperbolehkan untuk menyalin dari struktur data yang lain seperti array.  Program stack yang dibuat dapat menggunakan operasi stack seperti push, pop, peek, dan isEmpty.
 
@@ -907,10 +905,11 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 103849](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/e4217ebc-69e5-442b-a241-6c811d005a13)
+![Screenshot 2024-05-15 103849](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/5554f940-9166-47a7-b32a-138444eaa4ec)
 
 #### Full code:
-![Screenshot 2024-05-15 103835](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/9fe245a7-acfa-4593-9365-bf242f062a86)
+![Screenshot 2024-05-15 103835](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/a402b6cd-284c-4077-b1b2-575b0ca08929)
+
 ## CPMK 2 – SubCPMK 7
 
 ### 1. Tulislah sebuah program dari operasi queue seperti enqueue/add, dequeue/remove, isEmpty, isFull, dll(min 5)! 
@@ -1031,10 +1030,10 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 104618](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/760623ea-dc36-404a-8e8d-37f38963f1d9)
+![Screenshot 2024-05-15 104618](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/3bd8d3d9-c540-408e-b781-9246a4590e1c)
 
 #### Full code:
-![Screenshot 2024-05-15 104554](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/bbaddddc-8289-455a-8b7f-9829187f51a3)
+![Screenshot 2024-05-15 104554](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/616f409d-c1d8-4351-859d-eb60a28d6b7c)
 
 ### 2. Sebuah selter hewan terlantar, yang mana hanya menerima kucing dan anjing, menerapkan konsep “first in, first out” dalam proses adopsi. Orang-orang yang hendak mengadopsi harus mengikuti aturan berikut:  1. mengadopsi hewan yang paling “tua” (berdasarkan waktu masuk ke selter) dan tidak dapat memilih kucing atau anjing; 2. memilih antara kucing atau anjing, namun akan menerima yang paling tua. Buatlah data struktur untuk mengimplementasikan kondisi tersebut, silahkan menggunakan beberapa operasi queue seperti enquee, dequeueAny, dequeueDog, dan dequeueCat. 
 
@@ -1130,8 +1129,7 @@ int main() {
 ```
 
 #### Output :
-![Screenshot 2024-05-15 105310](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/75da042a-0fd4-45cd-aae5-be6a28633a38)
+![Screenshot 2024-05-15 105310](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/1d79b3ce-1f36-4f94-9a66-a82ebf28e538)
 
 #### Full code:
-![Screenshot 2024-05-15 105035](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/ba574415-7a61-4c06-b027-b0f6f4d57808)
-
+![Screenshot 2024-05-15 105035](https://github.com/yasminealifta/Teori-Algoritma-Struktur-Data-Assignment/assets/161322990/d0a0e8ce-6067-49ad-8a39-9bcdb4f91229)
